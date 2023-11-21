@@ -1,0 +1,39 @@
+{
+  "Home": {
+    "arabic": "الرئيسية",
+    "english": "Home"
+  },
+  "About": {
+    "arabic": "عن الجامعة",
+    "english": "About"
+  },
+  "Faculties": {
+    "arabic": "الكليات",
+    "english": "Faculties"
+  },
+  "Media": {
+    "arabic": "المكتب الاعلامي",
+    "english": "Media"
+  },
+  "ContactUs": {
+    "arabic": "اتصل بنا",
+    "english": "Contact Us"
+  },
+  "FQs": {
+    "arabic": "الاستفسارات",
+    "english": "FQs"
+  },
+  "Language": {
+    "arabic": "اللغات",
+    "english": "Language"
+  },
+  "Login": {
+    "arabic": "تسجيل دخول",
+    "english": "Login"
+  },
+  "Welcome": {
+    "arabic": "اهلا بكم في جامعة برج العرب التكنولوجية",
+    "english": "Welcome To Borg El Arab Technological University"
+  }
+
+}
