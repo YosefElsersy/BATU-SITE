@@ -1,0 +1,202 @@
+:root
+{
+--main-color: #4fb2b2;
+--secound-color: #a4bf54;
+--third-color: #313231;
+}
+body{
+  overflow-x: hidden;
+}
+.cover-section {
+  background: url("/imgs/FacultyOfIndustryAndEnergyTechnology-cover-dark.jpg")
+    center/cover no-repeat;
+  background-attachment: fixed;
+  height: 60vh; /* Adjust the height as needed */
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 520;
+}
+#cover-text {
+  margin-bottom: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cover-text a {
+  text-decoration: none;
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+/* Custom styles for h2 and p elements */
+.cover-section h2 {
+  font-size: 4rem; /* Set the font size for h2 to 2rem (32px) */
+}
+.cover-section p {
+  font-size: 1rem; /* Set the font size for p to 1rem (16px) */
+}
+/* Custom CSS for styling */
+.contact-form-container {
+  border: 2px solid var(--main-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+.contact-form-container h2 {
+  text-transform: uppercase;
+}
+@media (max-width: 576px) {
+  #cover-text h2 {
+    font-size: 3rem; /* Adjust the font size as needed for small screens */
+  }
+}
+/* ----------------- Dean-Section-Adjustments ----------------------- */
+/* Flexbox container */
+.dean-box {
+  background-color: white;
+  display: flex;
+  align-items: center; /* Vertically center content */
+}
+/* Style for the dean's photo */
+.dean-photo {
+  flex: 1;
+  width: 20rem;
+  height: auto;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+/* Style for the dean's message */
+.dean-word {
+  flex: 2;
+}
+.dean-word h5 {
+  font-size: 17px;
+  font-weight: lighter;
+}
+/* Style for the president's photo (optional) */
+.dean-photo img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-bottom: 4rem;
+}
+@media (max-width: 576px) {
+  .dean-photo img {
+    max-width: 70%;
+    margin-right: 10em !important;
+  }
+}
+/* ----------------- University-Programs-photos ----------------------- */
+.card {
+  height: 40em;
+  border: 1px solid var(--third-color);
+  padding: 30px;
+  line-height: 1.6;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.7s;
+}
+.card img {
+  position: relative;
+  height: 13em;
+  overflow: hidden;
+}
+.card:hover {
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 0px 10px 3px var(--main-color); /* Increase shadow on hover */
+  transform: translateY(-0.7em);
+  transition: all 0.5s;
+}
+.custom-button {
+  background-color: #4fb2b2; /* Change this to your desired normal background color */
+  color: #FFFFFF; /* Change this to your desired normal text color */
+  margin-left: -4px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+}
+.custom-button:hover {
+  background-color: var(--secound-color); /* Change this to your desired hover background color */
+  color: #FFFFFF; /* Change this to your desired hover text color */
+}
+/* Create a custom class to make cards the same height */
+.equal-height-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card a{
+  position: absolute;
+  top: 36.5em;
+  left: 2.5em;
+}
+
+/* .card1{
+  margin-top: 2.9em;
+  margin-bottom: 0em;
+}
+.card2{
+  margin-top: 3.5em;
+} 
+.card3{
+  margin-top: 0.7em;
+} 
+.card4{
+  margin-top: 1.6em;
+} 
+.card5{
+  margin-top: 3em;
+} 
+.card6{
+  margin-top: 20.5em;
+} 
+.card6{
+  margin-top: 20.5em;
+} 
+.card7{
+  margin-top: 20.5em;
+} */
+/* @media (max-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+
+} */
+
+@media (min-width: 1200px) {
+/* 
+  .card3{
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  .card6{
+    margin-bottom: 3.1em;
+  }  */
+} 
+
+/* @media (min-width: 1400px) {
+
+} */ 
+/* ----------------- Scroll-Bar-Adjustments ----------------------- */
+/* Track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color); /* Change this to your desired color */
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secound-color); /* Change this to your desired color on hover */
+}
+/* ----------------- Scroll-Bar-Adjustments ----------------------- */

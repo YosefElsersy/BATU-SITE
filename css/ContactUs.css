@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+:root
+{
+--main-color: #4fb2b2;
+--secound-color: #a4bf54;
+--third-color: #313231;
+}
+.cover-section {
+  background: url("/imgs/touchscreen-contact-us-dark.jpg") center/cover
+    no-repeat;
+  background-attachment: fixed;
+  height: 60vh; /* Adjust the height as needed */
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 520;
+}
+#cover-text {
+  margin-bottom: 5rem;
+}
+#cover-text a {
+  text-decoration: none;
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+/* Custom styles for h2 and p elements */
+.cover-section h2 {
+  font-size: 4rem; /* Set the font size for h2 to 2rem (32px) */
+}
+
+.cover-section p {
+  font-size: 1rem; /* Set the font size for p to 1rem (16px) */
+}
+
+/* Custom CSS for styling */
+.contact-form-container {
+  border: 2px solid var(--main-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+.contact-form-container h2 {
+  text-transform: uppercase;
+}
+#ContactUs-img img {
+  max-width: 100%;
+  width: 20rem;
+  height: auto;
+}
+#contact-form {
+  margin-bottom: 2em;
+}
+/* Custom CSS for small screens */
+@media (max-width: 576px) {
+  #cover-text h2 {
+    font-size: 3rem; /* Adjust the font size as needed for small screens */
+  }
+}
+@media (max-width: 767px) {
+  #ContactUs-img {
+    display: none;
+  }
+  #contact-form {
+    padding: 20px;
+  }
+}
+/* Custom CSS for small screens */
+@media (max-width: 576px) {
+  #ContactUs-img {
+    max-width: 70%; /* Ensure the image is responsive and doesn't exceed its container */
+    margin-left: 3.5rem;
+  }
+}
+.custom-button {
+  background-color: #4fb2b2; /* Change this to your desired normal background color */
+  color: #FFFFFF; /* Change this to your desired normal text color */
+  margin-left: -4px;
+  border-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+}
+.custom-button:hover {
+  background-color: var(--secound-color); /* Change this to your desired hover background color */
+  color: #FFFFFF; /* Change this to your desired hover text color */
+  border-color: transparent;
+}
+/* ----------------- Scroll-Bar-Adjustments ----------------------- */
+/* Track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color); /* Change this to your desired color */
+  border-radius: 5px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(
+    --secound-color
+  ); /* Change this to your desired color on hover */
+}
+/* ----------------- Scroll-Bar-Adjustments ----------------------- */
